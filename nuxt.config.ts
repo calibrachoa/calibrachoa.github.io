@@ -11,5 +11,9 @@ export default defineNuxtConfig({
     '@nuxtjs/plausible',
     // https://github.com/nuxt/devtools
     '@nuxt/devtools'
-  ]
+  ],
+  css: [
+    '@/node_modules/lite-youtube-embed/src/lite-yt-embed.css'
+  ],
+  plugins: [ {src: '@/plugins/youtube.client.js', ssr: false} ]
 })
