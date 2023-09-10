@@ -15,5 +15,11 @@ export default defineNuxtConfig({
   css: [
     '@/node_modules/lite-youtube-embed/src/lite-yt-embed.css'
   ],
-  plugins: [ {src: '@/plugins/youtube.client.js', ssr: false} ]
+  plugins: [ {src: '@/plugins/youtube.client.js', ssr: false} ],
+  runtimeConfig: {
+    public: {
+      FORMSPREE_URL: '1369225.jp@gmail.com'
+    }
+  }
+  
 })
