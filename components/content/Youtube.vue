@@ -15,7 +15,8 @@
       },
       label: {
         type: String,
-        required: true
+        required: false,
+        default: "Play"
       },
     },
     fetchOnServer: false,
