@@ -15,7 +15,7 @@ const articles = computed(() => _articles.value || [])</script>
 <template>
     <div v-if="articles?.length" class="articles-list">
         <div class="layout">
-            <ArticleResponsivePreview v-for="(article, index) in articles.slice(1)" :key="index" :article="article" />
+            <ArticleResponsivePreview v-for="(article, index) in articles" :key="index" :article="article" />
         </div>
     </div>
     <div v-else class="tour">

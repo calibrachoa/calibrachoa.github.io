@@ -43,10 +43,6 @@ const id = computed(() => {
                     {{ article.title }}
                 </h1>
             </NuxtLink>
-
-            <p class="description">
-                {{ article.description }}
-            </p>
         </div>
     </article>
 </template>

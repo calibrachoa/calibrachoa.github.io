@@ -14,6 +14,5 @@ export default defineNuxtConfig({
   ],
   css: [
     '@/node_modules/lite-youtube-embed/src/lite-yt-embed.css'
-  ],
-  plugins: [ {src: '@/plugins/youtube.client.js', ssr: false} ]  
+  ]
 })
