@@ -22,6 +22,7 @@
     "pinceau": "^0.20.1"
   },
   "dependencies": {
+    "copyfiles": "^2.4.1",
     "lite-youtube-embed": "^0.2.0"
   }
 }
